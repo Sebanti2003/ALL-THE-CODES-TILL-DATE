@@ -1,8 +1,16 @@
- // int b[8];
-    // for(int i=0,j=7;i<8,j>=0;i++,j--){
-        
-    //     int temp;
-    //     temp=arr[i];
-    //     arr[i]=b[j];
-    //     b[j]=temp;
-    // }
+
+        else{
+
+        }
+        mid=s-(s-e)/2;
+    }
+    return -1;
+    
+}
+int main(){
+    int array[4]={4,9,1,2};
+    int a;
+    a=pivot(array,4);
+    printf("the mountain element is at index : %d\n",a);
+    return 0;
+    
